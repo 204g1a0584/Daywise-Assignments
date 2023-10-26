@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+p {
+    color: gray;
+    font-size: 1rem;
+}
+
+.emailbox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btns button {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the registration and login forms */
+.register, .login {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register h1, .login h1 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.register label, .login label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    font-size: 1rem;
+}
+
+.register input, .login input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.register .btn, .login .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.register .btn:hover, .login .btn:hover {
+    background-color: #0056b3;
+}

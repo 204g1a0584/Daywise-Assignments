@@ -1,0 +1,131 @@
+/* Reset some default styling for better consistency */
+body, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+}
+
+.header img {
+    height: 40px; /* Adjust the height as needed */
+    width: 40px; /* Adjust the width as needed */
+}
+
+.header h1 {
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.header p {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header .input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.header input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.header img[src="magnifying-glass-solid.svg"] {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+}
+
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    
+}
+.navbar h3 {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+/* Style the main content area */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the "View More" button */
+.button-2 {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the profile section */
+.profile {
+    border: 1px solid #333; /* Set your desired border styles */
+    padding: 10px;
+    text-align: center;
+}
+
+.profile img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Additional styling for the modal */
+.modal {
+    display: none;
+    /* Your modal styles go here */
+}
+
+.modal-content {
+    /* Your modal content styles go here */
+}

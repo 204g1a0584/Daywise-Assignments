@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Super Market</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img style="width: 60px;" src="img1.jpg" >
+            <h1>Super Market</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search in site">
+                <img src="search.png" style="width: 20px;" " alt="Search Icon">
+            </div>
+        </nav>
+    </header>
+
+    <div class="body">
+        <aside class="navbar">
+            <h3>Bakery</h3>
+            <h3>Produce</h3>
+            <h3>Meat</h3>
+            <h3>Dairy</h3>
+            <h3>Snacks</h3>
+        </aside>
+
+        <main class="content">
+            <section class="main-content">
+                <div class="recipes">
+                    <h1>Recipes</h1>
+                    <p>Discover new recipe ideas</p>
+                    <button class="button-2" style="padding-top: 10px;" onclick="show_pop()">
+                        <p >View More</p>
+                    </button>
+                    <div class="recipe-link">
+                        <img src="pastha.jpg" style="width: 100px;padding-top: 5px;" alt="Recipe 1">
+                        <div class="info">
+                            <h3>Quick and Easy Pasta</h3>
+                            <p>Try our Pasta</p>
+                        </div>
+                    </div>
+                    <div class="recipe-link">
+                        <img src="ckn.jfif" style="width: 100px;padding-top: 5px;"  alt="Recipe 2">
+                        <div class="info">
+                            <h3>Spicy Chicken Curry</h3>
+                            <p>Learn how to make a flavorful and spicy chicken curry at home</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <h3>Logged In User Details</h3>
+                    <img src="login-person.jpg" alt="User Image">
+                    <p><b>First Name:</b> <span id="fname"></span></p>
+                    <p><b>Last Name:</b> <span id="lname"></span></p>
+                    <p><b>Email:</b> <span id="email"></span></p>
+                    <p><b>Password:</b> <span id="pass"></span></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h1>Subscribe to our Newsletter</h1>
+            <div class="form">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your First name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your Last name">
+                <label for="email-address">Email</label>
+                <input type="text" id="email-address" placeholder="Enter your email address">
+                <button class="button-2">
+                    <p>Subscribe</p>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Popular Recipes</h2>
+            </div>
+            <div class="modal-body">
+                <!-- Add your modal content here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+.header{
+    float:left;
+    width:100%;
+    background:rgb(199, 189, 189);
+}
+
+#logo{
+    width: 75px; ;
+    height:auto;
+    align-items: center;
+
+}
+img{
+    width:30px;
+    height: auto;
+}
+
+.cart{
+    float:right;
+    
+}
+.signin{
+  float: right;
+  padding: 15px;
+}
+
+.right{
+    float:right;
+}
+
+nav{
+    background-color: orange;
+    padding: 0px;
+    width:100%;
+    height:40px;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 40px
+}
+
+a{
+    align-items: center;
+    padding: 10px;
+    color: ;
+    text-decoration: none;
+}
+
+
+.banner img{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.bigbox{
+    background-color: aqua;
+    display: flex;
+}
+
+.wlcm{
+    text-align: center;
+    background-color: orange;
+}
+
+.wlcm button{
+    width: 200px;
+    color: black;
+    height:100%;
+}
+
+.bigbox{
+    width:100%;
+    display:flex;
+    align-items: baseline;
+}
+
+
+.clothing img{
+    width:33%%;
+
+}
+
+.front{
+    width:33%;
+}
+
+.back{
+    width:33%;
+}
+.depts{
+    width:33%;
+}
+
+ ul{
+    list-style: none;
+}
+
+.about,.jobs,.help,.resources{
+    text-decoration: solid;
+    font-weight: bolder;
+    width: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fblock{
+    width: 100%;
+    display:flex;
+}
+
+
+footer h2{
+    width:100%;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+
+.textie{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
